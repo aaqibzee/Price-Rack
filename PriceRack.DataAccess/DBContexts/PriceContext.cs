@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PriceRack.DataAccess.Entities;
 
-namespace PriceRack.DataAccess
+namespace PriceRack.DataAccess.DBContexts
 {
     public class PriceContext : DbContext
     {

@@ -11,8 +11,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\PriceRack.Common\PriceRack.Common.csproj" />
     <ProjectReference Include="..\PriceRack.DataAccess\PriceRack.DataAccess.csproj" />
+    <ProjectReference Include="..\Project\PriceRack.Common\PriceRack.Common.csproj" />
   </ItemGroup>
 
 </Project>

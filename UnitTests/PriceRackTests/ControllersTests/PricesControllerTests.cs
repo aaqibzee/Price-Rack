@@ -9,10 +9,10 @@ using PriceRack.DataAccess.Entities;
 using PriceRack.Services;
 using PriceRack.Common;
 using PriceRack.Common.Extensions;
-using PriceRack.Attributes;
 using System.ComponentModel.DataAnnotations;
 using PriceRack.Common.Exceptions;
 using System.Net;
+using PriceRack.Attributes;
 
 namespace PriceRack.Tests.ControllersTests
 {
