@@ -1,5 +1,5 @@
 # Price-Rack:
-Price-Rack is a simple microservice to give value of a financial instruments at a given point.
+Price-Rack is a simple microservice to give the value of financial instruments at a given point.
 As of now it supports only BTC/USD pair, but it can be extended to support other pairs as well.
 
 # Working:
@@ -21,19 +21,19 @@ aggregate them, then return the value to the client. The values are stored in th
 1) Install .Net 6 SDK
 2) Install Visual Studio 2022
 3) Open the solution file and build it
-4) Select PriceRack(API Project) as start up project
+4) Select PriceRack(API Project) as start-up project
 5) Run the program 
 6) If there are certificates launched accept them
-7) Incase you face the the issue : "Your connection is not private" resolve it this way.
+7) In case you face the issue: "Your connection is not private" resolve it this way.
  a) Open chrome
- b) In the address bar type : chrome://flags
+ b) In the address bar type: chrome://flags
  c) Now type "localhost" in the search bar
  d) Enable the option "Allow invalid certificates for resources loaded from localhost" 
- e) Relaunch chrom
+ e) Relaunch chrome
  8) Relaunch the project and test
 
 #How to test:
-On project launch you should see two endpoints:
+On project launch, you should see two endpoints:
 
 ![image](https://user-images.githubusercontent.com/43916885/235371880-5da7949d-5015-4249-8c86-6ee8984a2284.png)
 1) Price
